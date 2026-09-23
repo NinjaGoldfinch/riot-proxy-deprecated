@@ -1,9 +1,9 @@
 name: Acceptance
 
 # The only workflow that talks to the real Riot API, so it never runs on a PR:
-# it needs a live key, spends real quota, and takes minutes. Dispatch it by
-# hand, or let the nightly run cover it — note that a *development* key expires
-# every 24 h, so a scheduled run needs a personal or production key in secrets.
+# it needs a live key, spends real quota, and takes minutes. The repository is
+# deprecated, so the nightly schedule has been removed; dispatch it by hand if
+# you ever need it.
 on:
   workflow_dispatch:
     inputs:
@@ -25,9 +25,6 @@ on:
         required: false
         default: false
         type: boolean
-  schedule:
-    # 04:00 UTC, well clear of peak so the burst competes with nothing.
-    - cron: '0 4 * * *'
 
 # Every run shares one Riot key and one set of rate-limit buckets. Overlapping
 # runs would make each other's 429 assertions meaningless.

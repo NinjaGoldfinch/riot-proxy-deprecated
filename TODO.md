@@ -1,5 +1,8 @@
 # TODO
 
+> **Frozen.** This repository is deprecated; this list is kept as a record of
+> where the project stood and will not be updated.
+
 GitHub issues stay the source of truth for anything with a discussion attached;
 this file is the map — what is done, what is in flight, and what is known to be
 missing. Phases refer to §15 of [the spec](docs/riot-proxy-spec.md).
