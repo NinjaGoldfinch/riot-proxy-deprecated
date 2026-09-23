@@ -1,4 +1,4 @@
-# depreciated
+# deprecated
 
 > [!WARNING]
 > **This repository is deprecated and no longer maintained.** It was previously
