@@ -1,8 +1,8 @@
 {
-  "name": "riot-proxy",
+  "name": "deprecated",
   "version": "1.0.0",
   "private": true,
-  "description": "Self-hosted middleman API between Riot Games' public API and downstream projects",
+  "description": "DEPRECATED (formerly riot-proxy): no longer maintained. Self-hosted middleman API between Riot Games' public API and downstream projects",
   "type": "module",
   "engines": {
     "node": ">=26 <27"
