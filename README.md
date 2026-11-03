@@ -42,4 +42,4 @@ Riot Games properties.
 
 ## Licence
 
-Private. Not for redistribution.
+MIT. See [LICENSE](LICENSE).
